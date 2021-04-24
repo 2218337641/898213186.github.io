@@ -1,0 +1,123 @@
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: inline-block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: inline-block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e7eb';
+    font-family: iconfont;
+}
+.nav{
+    overflow: hidden;
+}
+.sk_hd{
+    margin-bottom: 27px;
+}
+.sk_bd ul li{
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-of-type(4n){
+    margin: 0;
+}
+.sk_bd ul li:nth-of-type(n+5){
+    margin-top: 12px;
+}
+.sk_bd ul li a img{
+    width: 287px;
+    height: 290px;
+}
+.sk_bd ul li a>p{
+    display: inline-block;
+    font-size: 14px;
+    font-family: 宋体;
+    margin: 9px 2px 2px 13px;
+}
+.pri{
+    margin-left: 15px;
+    margin-bottom: 13px;
+
+}
+.pri .miaoshap{
+    color: #e60012;
+    font-size: 22px;
+}
+.pri .miaoshap i{
+    font-size: 14px;
+}
+.pri .beimiaop{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #a4a4a4;
+}
+.tiao{
+    margin-left: 13px;
+    color: #747474;
+    height: 16px;
+}
+.sk_bd ul li a .tiao p{
+    margin: 0;
+    display: inline-block;
+    color: #ed282e;
+}
+.tiao .bor{
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #ed282e;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 12px;
+}
+.tiao .bor .red{
+    width: 80%;
+    height: 100%;
+    background-color: #ed282e;
+    transition: all .3s;
+}
+.bor:hover .red{
+    width: 100%;
+}
+.bot{
+    position: absolute;
+    bottom: 0;
+    left: 0;;
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+}
+.sk_bd ul li a .bot p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.sk_bd ul li:hover{
+    border: 1px solid rgba(16, 186, 238, 0.667);
+}
